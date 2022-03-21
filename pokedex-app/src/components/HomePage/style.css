@@ -1,0 +1,33 @@
+#shadow-bg {
+    height: 1084px;
+    width: 100vw;
+    background-color: #DFDADA;
+    opacity: 45%;
+    border-radius: 50%;
+
+    position: absolute;
+    top: -700px;
+    z-index: -1;
+
+}
+
+.input-home-page{
+    display: flex;
+}
+
+.input-home-page p{
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+}
+
+.input-home-page input{
+    all: unset;
+
+    border-bottom: solid black 1px;
+    min-width: 270px;
+    padding: 5px;
+
+    margin-bottom: 30px;
+}
+
+

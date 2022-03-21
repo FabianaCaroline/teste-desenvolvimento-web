@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    min-height: 100vh;
+    min-width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    width: 100vw;
+    height: 130px;
+    background: url('../../assets/header.png') no-repeat;
+    background-size: 100%;
+
+    position: fixed;
+    top: 0;
+}
+
+.footer {
+    width: 100vw;
+    height: 130px;
+    background: url('../../assets/footer.png') no-repeat;
+    background-size: 100%;
+
+    position: fixed;
+    bottom: 0;
+}
