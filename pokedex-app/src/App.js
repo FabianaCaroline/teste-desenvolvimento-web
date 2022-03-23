@@ -1,11 +1,12 @@
 import logo from './logo.svg';
-import HomePage from './components/HomePage';
+import Rotas from './components/Rotas';
+import React from 'react';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <HomePage />
+        <Rotas />
       </header>
     </div>
   );

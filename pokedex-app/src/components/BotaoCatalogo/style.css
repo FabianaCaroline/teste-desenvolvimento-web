@@ -1,0 +1,45 @@
+a {
+    all: unset;
+
+    background-color: #51AE5F;
+    padding: 35px 31px 35px 31px;
+
+    font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 36px;
+    color: white;
+    font-weight: 600;
+
+    border-radius: 15px;
+    border: 3px solid black;
+
+    text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+.catalogo-btn {
+    position: absolute;
+    left: 86px;
+    bottom: 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shadow {
+    width: 146px;
+    height: 45px;
+
+    background-color: #C4C4C473;
+    
+    border-radius: 50%;
+
+    filter: blur(15px);
+
+    position: relative;
+    z-index: -1;
+    bottom: 10px;
+}
